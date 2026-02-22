@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>✨ Bhakti Das - Best Shayari Collection | Love, Sad & Motivational Shayari</title>
+    <meta name="description" content="Bhakti Das - Discover the finest collection of Hindi & Urdu Shayari - Love, Sad, and Motivational. Perfect for WhatsApp & Instagram captions.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Noto+Nastaliq+Urdu:wght@400;500;600;700&family=Noto+Sans+Oriya:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <span class="logo-icon">✨</span>
+                <span class="logo-text">BHAKTI DAS SHAYARI</span>
+            </div>
+            <nav>
+                <a href="#love">Love</a>
+                <a href="#sad">Sad</a>
+                <a href="#motivational">Motivational</a>
+                <a href="#trending">Trending</a>
+                <select id="languageSelector" onchange="changeLanguage()">
+                    <option value="hindi">Hindi</option>
+                    <option value="odia">Odia</option>
+                    <option value="english">English</option>
+                </select>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">✨ Bhakti Das - Best Shayari Collection ✨</h1>
+            <p class="hero-subtitle">Express Your Emotions with Beautiful Words</p>
+            <div class="hero-tags">
+                <div class="tag">❤️ Love Shayari</div>
+                <div class="tag">💔 Sad Shayari</div>
+                <div class="tag">💪 Motivational</div>
+            </div>
+            <p class="cta-text">Perfect for WhatsApp & Instagram captions</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Love Shayari Section -->
+        <section id="love" class="section">
+            <div class="section-header">
+                <h2 class="section-title">❤️ Love Shayari</h2>
+                <p class="section-description">Express your deepest feelings with romantic Shayari</p>
+            </div>
+            <div class="shayari-grid">
+                <div class="shayari-card">
+                    <span class="shayari-category">Love</span>
+                    <p class="shayari-text" 
+                       data-hindi="तुम्हारी यादों की खुशबू से महकी है ज़िन्दगी<br>तुम्हारे बिन अब कोई ख़ुशी नहीं रही है"
+                       data-odia="ତୁମ ସ୍ମୃତିର ସୁଗନ୍ଧରେ ମୋ ଜୀବନ ସୁଗନ୍ଧିତ<br>ତୁମ ବିନା ଆଉ କୌଣସି ଖୁସି ନାହିଁ"
+                       data-english="My life is fragrant with your memories<br>Without you, no happiness remains">
+                        तुम्हारी यादों की खुशबू से महकी है ज़िन्दगी<br>तुम्हारे बिन अब कोई ख़ुशी नहीं रही है
+                    </p>
+                    <p class="shayari-translation">My life is fragrant with the perfume of your memories, Without you, no happiness remains anymore.</p>
+                    <div class="shayari-actions">
+                        <button class="btn" onclick="copyShayari(this)">📋 Copy</button>
+                        <button class="btn btn-primary" onclick="shareShayari(this)">📱 Share</button>
+                    </div>
+                </div>
+                <div class="shayari-card">
+                    <span class="shayari-category">Love</span>
+                    <p class="shayari-text"
+                       data-hindi="दिल की धड़कन में तेरा नाम बसा है<br>हर साँस में तेरी याद आती है"
+                       data-odia="ମୋ ହୃଦୟର ଧଡ଼କଣରେ ତୁମର ନାମ ବସିଛି<br>ପ୍ରତି ଶ୍ୱାସରେ ତୁମକୁ ମନେ ପଡ଼େ"
+                       data-english="Your name resides in my heartbeat<br>Your memory comes with every breath">
+                        दिल की धड़कन में तेरा नाम बसा है<br>हर साँस में तेरी याद आती है
+                    </p>
+                    <p class="shayari-translation">Your name resides in my heartbeat, Your memory comes with every breath I take.</p>
+                    <div class="shayari-actions">
+                        <button class="btn" onclick="copyShayari(this)">📋 Copy</button>
+                        <button class="btn btn-primary" onclick="shareShayari(this)">📱 Share</button>
+                    </div>
+                </div>
+                <div class="shayari-card">
+                    <span class="shayari-category">Love</span>
+                    <p class="shayari-text"
+                       data-hindi="मोहब्बत में वफ़ा का रिश्ता है यह<br>तुम्हारे बग़ैर दिल अधूरा है"
+                       data-odia="ପ୍ରେମରେ ବିଶ୍ୱାସର ସମ୍ପର୍କ ଏହା<br>ତୁମ ବିନା ମୋ ହୃଦୟ ଅଧୂରା"
+                       data-english="This is a bond of loyalty in love<br>My heart is incomplete without you">
+                        मोहब्बत में वफ़ा का रिश्ता है यह<br>तुम्हारे बग़ैर दिल अधूरा है
+                    </p>
+                    <p class="shayari-translation">This is a bond of loyalty in love, My heart is incomplete without you.</p>
+                    <div class="shayari-actions">
+                        <button class="btn" onclick="copyShayari(this)">📋 Copy</button>
+                        <button class="btn btn-primary" onclick="shareShayari(this)">📱 Share</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sad Shayari Section -->
+        <section id="sad" class="section">
+            <div class="section-header">
+                <h2 class="section-title">💔 Sad Shayari</h2>
+                <p class="section-description">Express the pain that words can barely hold</p>
+            </div>
+            <div class="shayari-grid">
+                <div class="shayari-card">
+                    <span class="shayari-category">Sad</span>
+                    <p class="shayari-text"
+                       data-hindi="टूटे हुए दिल की कहानी कौन सुने<br>आँसुओं में डूबी ज़िन्दगी की दास्तान कौन पढ़े"
+                       data-odia="ଭଙ୍ଗା ହୃଦୟର କାହାଣୀ କିଏ ଶୁଣିବ<br>ଲୁହରେ ବୁଡ଼ି ଯାଇଥିବା ଜୀବନର କଥା କିଏ ପଢ଼ିବ"
+                       data-english="Who will listen to the story of a broken heart<br>Who will read the tale of a life drowned in tears">
+                        टूटे हुए दिल की कहानी कौन सुने<br>आँसुओं में डूबी ज़िन्दगी की दास्तान कौन पढ़े
+                    </p>
+                    <p class="shayari-translation">Who will listen to the story of a broken heart? Who will read the tale of a life drowned in tears?</p>
+                    <div class="shayari-actions">
+                        <button class="btn" onclick="copyShayari(this)">📋 Copy</button>
+                        <button class="btn btn-primary" onclick="shareShayari(this)">📱 Share</button>
+                    </div>
+                </div>
+                <div class="shayari-card">
+                    <span class="shayari-category">Sad</span>
+                    <p class="shayari-text"
+                       data-hindi="तन्हाई का सफ़र बहुत लम्बा है<br>ख़ामोशी में छुपा हुआ ग़म कितना गहरा है"
+                       data-odia="ଏକୁଟିଆ ଯାତ୍ରା ବହୁତ ଲମ୍ବା<br>ନୀରବତାରେ ଲୁଚିଥିବା ଦୁଃଖ କେତେ ଗଭୀର"
+                       data-english="The journey of loneliness is very long<br>How deep is the sorrow hidden in silence">
+                        तन्हाई का सफ़र बहुत लम्बा है<br>ख़ामोशी में छुपा हुआ ग़म कितना गहरा है
+                    </p>
+                    <p class="shayari-translation">The journey of loneliness is very long, How deep is the sorrow hidden in silence.</p>
+                    <div class="shayari-actions">
+                        <button class="btn" onclick="copyShayari(this)">📋 Copy</button>
+                        <button class="btn btn-primary" onclick="shareShayari(this)">📱 Share</button>
+                    </div>
+                </div>
+                <div class="shayari-card">
+                    <span class="shayari-category">Sad</span>
+                    <p class="shayari-text"
+                       data-hindi="बिछड़ने का दर्द दिल में है<br>आँखों में आँसू, लबों पर फ़रियाद है"
+                       data-odia="ବିଛଡ଼ିବାର ଯନ୍ତ୍ରଣା ହୃଦୟରେ ଅଛି<br>ଆଖିରେ ଲୁହ, ଓଠରେ କାନ୍ଦଣା"
+                       data-english="The pain of separation is in my heart<br>Tears in my eyes, a cry on my lips">
+                        बिछड़ने का दर्द दिल में है<br>आँखों में आँसू, लबों पर फ़रियाद है
+                    </p>
+                    <p class="shayari-translation">The pain of separation is in my heart, Tears in my eyes, a cry on my lips.</p>
+                    <div class="shayari-actions">
+                        <button class="btn" onclick="copyShayari(this)">📋 Copy</button>
+                        <button class="btn btn-primary" onclick="shareShayari(this)">📱 Share</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Shayari -->
+        <div class="featured">
+            <div class="featured-content">
+                <div class="section-header">
+                    <h2 class="section-title">⭐ Featured Shayari of the Day</h2>
+                </div>
+                <div class="featured-shayari">
+                    <p class="shayari-text"
+                       data-hindi="ज़िन्दगी का सफ़र है बहुत हसीन<br>हर पल में छुपी है एक नई कहानी<br>मुस्करा के जियो, ख़ुश रहो हमेशा<br>यही है ज़िन्दगी की असली पहचान"
+                       data-odia="ଜୀବନର ଯାତ୍ରା ବହୁତ ସୁନ୍ଦର<br>ପ୍ରତି କ୍ଷଣରେ ଲୁଚିଛି ଏକ ନୂଆ କାହାଣୀ<br>ହସି ହସି ବଞ୍ଚ, ସର୍ବଦା ଖୁସି ରୁହ<br>ଏହା ହିଁ ଜୀବନର ପ୍ରକୃତ ପରିଚୟ"
+                       data-english="Life's journey is very beautiful<br>A new story is hidden in every moment<br>Live with a smile, always be happy<br>This is the true identity of life">
+                        ज़िन्दगी का सफ़र है बहुत हसीन<br>हर पल में छुपी है एक नई कहानी<br>मुस्करा के जियो, ख़ुश रहो हमेशा<br>यही है ज़िन्दगी की असली पहचान
+                    </p>
+                    <p class="shayari-translation">Life's journey is very beautiful,<br>A new story is hidden in every moment.<br>Live with a smile, always be happy,<br>This is the true identity of life.</p>
+                    <div class="shayari-actions">
+                        <button class="btn" onclick="copyShayari(this)">📋 Copy</button>
+                        <button class="btn btn-primary" onclick="shareShayari(this)">📱 Share</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Motivational Shayari Section -->
+        <section id="motivational" class="section">
+            <div class="section-header">
+                <h2 class="section-title">💪 Motivational Shayari</h2>
+                <p class="section-description">Ignite your inner strength with powerful words</p>
+            </div>
+            <div class="shayari-grid">
+                <div class="shayari-card">
+                    <span class="shayari-category">Motivational</span>
+                    <p class="shayari-text" data-hindi="पहले अमीर बनो फिर दार्शनिक बनो<br>~ MJ" data-odia="ପ୍ରଥମେ ଧନୀ ହୁଅ ତାପରେ ଦାର୍ଶନିକ ହୁଅ<br>~ MJ" data-english="First Become Rich Then Be a philosopher<br>~ MJ">
+                        पहले अमीर बनो फिर दार्शनिक बनो<br>~ MJ
+                    </p>
+                    <p class="shayari-translation">First Become Rich Then Be a philosopher ~ MJ</p>
+                    <div class="shayari-actions"><button class="btn" onclick="copyShayari(this)">📋 Copy</button><button class="btn btn-primary" onclick="shareShayari(this)">📱 Share</button></div>
+                </div>
+                <div class="shayari-card">
+                    <span class="shayari-category">Motivational</span>
+                    <p class="shayari-text" data-hindi="सपने वो नहीं जो नींद में आए चुप-चाप,<br>सपने वो हैं जो जगाए रात भर हर एक ख्वाब।<br>जुनून जो सोने न दे, वही असली उड़ान है,<br>मेहनत की आग से ही बनती पहचान है।<br>~ APJ Abdul Kalam" data-odia="ସ୍ୱପ୍ନ ସେଗୁଡ଼ିକ ନୁହେଁ ଯାହା ଶୋଇବା ସମୟରେ ଦେଖୁଛ,<br>ସ୍ୱପ୍ନ ସେଗୁଡ଼ିକ ଯାହା ତୁମକୁ ଶୋଇବାକୁ ଦିଏ ନାହିଁ।<br>~ APJ Abdul Kalam" data-english="Dreams are not those which you see while sleeping,<br>dreams are those that do not let you sleep<br>~ APJ Abdul Kalam">
+                        सपने वो नहीं जो नींद में आए चुप-चाप,<br>सपने वो हैं जो जगाए रात भर हर एक ख्वाब।<br>जुनून जो सोने न दे, वही असली उड़ान है,<br>मेहनत की आग से ही बनती पहचान है।<br>~ APJ Abdul Kalam
+                    </p>
+                    <p class="shayari-translation">Dreams are not those which you see while sleeping, dreams are those that do not let you sleep ~ APJ Abdul Kalam</p>
+                    <div class="shayari-actions"><button class="btn" onclick="copyShayari(this)">📋 Copy</button><button class="btn btn-primary" onclick="shareShayari(this)">📱 Share</button></div>
+                </div>
+                <div class="shayari-card">
+                    <span class="shayari-category">Motivational</span>
+                    <p class="shayari-text" data-hindi="सूरज सा चमकना है तो जलना भी पड़ेगा,<br>सफलता के रास्ते पर संभलना भी पड़ेगा।<br>आसान नहीं होता सितारों तक जाना,<br>खुद को तपाकर ही हीरा बनना पड़ेगा।<br>~ APJ Abdul Kalam" data-odia="ଯଦି ତୁମେ ସୂର୍ଯ୍ୟ ପରି ଚମକିବାକୁ ଚାହୁଁଛ,<br>ପ୍ରଥମେ ସୂର୍ଯ୍ୟ ପରି ଜଳିବାକୁ ପଡ଼ିବ<br>~ APJ Abdul Kalam" data-english="If you want to shine like a sun,<br>first burn like a sun<br>~ APJ Abdul Kalam">
+                        सूरज सा चमकना है तो जलना भी पड़ेगा,<br>सफलता के रास्ते पर संभलना भी पड़ेगा।<br>आसान नहीं होता सितारों तक जाना,<br>खुद को तपाकर ही हीरा बनना पड़ेगा।<br>~ APJ Abdul Kalam
+                    </p>
+                    <p class="shayari-translation">If you want to shine like a sun, first burn like a sun ~ APJ Abdul Kalam</p>
+                    <div class="shayari-actions"><button class="btn" onclick="copyShayari(this)">📋 Copy</button><button class="btn btn-primary" onclick="shareShayari(this)">📱 Share</button></div>
+                </div>
+                <div class="shayari-card">
+                    <span class="shayari-category">Motivational</span>
+                    <p class="shayari-text" data-hindi="पहले साहस में अमीर बनो, फिर नाम में अमीर,<br>पैसा एक यात्रा है, पर मानसिकता जीतती है खेल।<br>~ MJ" data-odia="ପ୍ରଥମେ ସାହସରେ ଧନୀ ହୁଅ, ତାପରେ ନାମରେ ଧନୀ,<br>ଟଙ୍କା ଏକ ଯାତ୍ରା, କିନ୍ତୁ ମାନସିକତା ଖେଳ ଜିତେ।<br>~ MJ" data-english="First become rich in courage, then rich in name,<br>Money is a journey, but mindset wins the game.<br>~ MJ">
+                        पहले साहस में अमीर बनो, फिर नाम में अमीर,<br>पैसा एक यात्रा है, पर मानसिकता जीतती है खेल।<br>~ MJ
+                    </p>
+                    <p class="shayari-translation">First become rich in courage, then rich in name, Money is a journey, but mindset wins the game. ~ MJ</p>
+                    <div class="shayari-actions"><button class="btn" onclick="copyShayari(this)">📋 Copy</button><button class="btn btn-primary" onclick="shareShayari(this)">📱 Share</button></div>
+                </div>
+                <div class="shayari-card">
+                    <span class="shayari-category">Motivational</span>
+                    <p class="shayari-text" data-hindi="मेहनत को अपना धर्म बना लो, 💫<br>सपनों को अपना कर्म बना लो,<br>एक दिन दुनिया भी कहेगी —<br>यह नाम ही अपना परम बना लो। 🔥" data-odia="ପରିଶ୍ରମକୁ ନିଜର ଧର୍ମ କର, 💫<br>ସ୍ୱପ୍ନକୁ ନିଜର କର୍ମ କର,<br>ଦିନେ ଦୁନିଆ ମଧ୍ୟ କହିବ —<br>ଏହି ନାମ ହିଁ ତୁମର ପରମ। 🔥" data-english="Make hard work your religion, 💫<br>Make dreams your karma,<br>One day the world will say —<br>This name itself became supreme. 🔥">
+                        🔥 मेहनत को अपना धर्म बना लो,<br>💫 सपनों को अपना कर्म बना लो,<br>एक दिन दुनिया भी कहेगी —<br>यह नाम ही अपना परम बना लो।
+                    </p>
+                    <p class="shayari-translation">Make hard work your religion, Make dreams your karma, One day the world will say — This name itself became supreme.</p>
+                    <div class="shayari-actions"><button class="btn" onclick="copyShayari(this)">📋 Copy</button><button class="btn btn-primary" onclick="shareShayari(this)">📱 Share</button></div>
+                </div>
+                <div class="shayari-card">
+                    <span class="shayari-category">Motivational</span>
+                    <p class="shayari-text" data-hindi="चीजें हमेशा योजना के अनुसार नहीं चलतीं,<br>लेकिन अनियोजित भी सुंदर हो सकता है।<br>~ BRD" data-odia="ଜିନିଷ ସବୁବେଳେ ଯୋଜନା ଅନୁଯାୟୀ ହୁଏ ନାହିଁ,<br>କିନ୍ତୁ ଅଯୋଜିତ ମଧ୍ୟ ସୁନ୍ଦର ହୋଇପାରେ।<br>~ BRD" data-english="Things will not always go as planned but,<br>even the unplanned can be beautiful.<br>~ BRD">
+                        चीजें हमेशा योजना के अनुसार नहीं चलतीं,<br>लेकिन अनियोजित भी सुंदर हो सकता है।<br>~ BRD
+                    </p>
+                    <p class="shayari-translation">Things will not always go as planned but, even the unplanned can be beautiful. ~ BRD</p>
+                    <div class="shayari-actions"><button class="btn" onclick="copyShayari(this)">📋 Copy</button><button class="btn btn-primary" onclick="shareShayari(this)">📱 Share</button></div>
+                </div>
+                <div class="shayari-card">
+                    <span class="shayari-category">Motivational</span>
+                    <p class="shayari-text" data-hindi="सफलता कोई मुकुट नहीं जो आप आसानी से पहनते हैं,<br>यह एक तूफान है जिसे आप झेलते हैं, एक भार जो आप उठाते हैं।<br>अपने साम्राज्य को ईंट-ईंट करके बनाओ,<br>अनुशासन को अपनी दृष्टि को मजबूत बनाने दो।<br>~ Elon Musk" data-odia="ସଫଳତା କୌଣସି ମୁକୁଟ ନୁହେଁ ଯାହା ତୁମେ ସହଜରେ ପିନ୍ଧ,<br>ଏହା ଏକ ଝଡ଼ ଯାହାକୁ ତୁମେ ବଞ୍ଚ।<br>~ Elon Musk" data-english="Success is not a crown you casually wear,<br>It's a storm you survive, a weight you bear.<br>Build your empire brick by brick,<br>Let discipline make your vision thick.<br>~ Elon Musk">
+                        सफलता कोई मुकुट नहीं जो आप आसानी से पहनते हैं,<br>यह एक तूफान है जिसे आप झेलते हैं, एक भार जो आप उठाते हैं।<br>अपने साम्राज्य को ईंट-ईंट करके बनाओ,<br>अनुशासन को अपनी दृष्टि को मजबूत बनाने दो।<br>~ Elon Musk
+                    </p>
+                    <p class="shayari-translation">Success is not a crown you casually wear, It's a storm you survive, a weight you bear. Build your empire brick by brick, Let discipline make your vision thick. ~ Elon Musk</p>
+                    <div class="shayari-actions"><button class="btn" onclick="copyShayari(this)">📋 Copy</button><button class="btn btn-primary" onclick="shareShayari(this)">📱 Share</button></div>
+                </div>
+                <div class="shayari-card">
+                    <span class="shayari-category">Motivational</span>
+                    <p class="shayari-text" data-hindi="आराम का पीछा मत करो, चढ़ाई का पीछा करो,<br>महानता एक-एक कदम से बनती है।<br>सपने के लिए खून बहाओ, गिरावट से उठो,<br>सबसे मजबूत दिल सब कुछ जीत लेते हैं।<br>~ Bruce Lee" data-odia="ଆରାମର ପଛେ ନ ଦୌଡ଼, ଆରୋହଣର ପଛେ ଦୌଡ଼।<br>~ Bruce Lee" data-english="Don't chase comfort, chase the climb,<br>Greatness is built one step at a time.<br>Bleed for the dream, rise from the fall,<br>The strongest hearts conquer it all.<br>~ Bruce Lee">
+                        आराम का पीछा मत करो, चढ़ाई का पीछा करो,<br>महानता एक-एक कदम से बनती है।<br>सपने के लिए खून बहाओ, गिरावट से उठो,<br>सबसे मजबूत दिल सब कुछ जीत लेते हैं।<br>~ Bruce Lee
+                    </p>
+                    <p class="shayari-translation">Don't chase comfort, chase the climb, Greatness is built one step at a time. Bleed for the dream, rise from the fall, The strongest hearts conquer it all. ~ Bruce Lee</p>
+                    <div class="shayari-actions"><button class="btn" onclick="copyShayari(this)">📋 Copy</button><button class="btn btn-primary" onclick="shareShayari(this)">📱 Share</button></div>
+                </div>
+                <div class="shayari-card">
+                    <span class="shayari-category">Motivational</span>
+                    <p class="shayari-text" data-hindi="आपका भविष्य उस चीज़ से आकार लेता है जो आप आज करते हैं,<br>उन डरों से नहीं जो आपके रास्ते को रोकते हैं।<br>मौन में काम करो, परिणाम को ज़ोर से बोलने दो,<br>अपने संघर्षों को कुछ गर्व की बात में बदल दो।<br>~ Oprah Winfrey" data-odia="ତୁମର ଭବିଷ୍ୟତ ଆଜି ତୁମେ କଣ କର ତାହା ଦ୍ୱାରା ଗଠିତ।<br>~ Oprah Winfrey" data-english="Your future is shaped by what you do today,<br>Not by the fears that block your way.<br>Work in silence, let results speak loud,<br>Turn your struggles into something proud.<br>~ Oprah Winfrey">
+                        आपका भविष्य उस चीज़ से आकार लेता है जो आप आज करते हैं,<br>उन डरों से नहीं जो आपके रास्ते को रोकते हैं।<br>मौन में काम करो, परिणाम को ज़ोर से बोलने दो,<br>अपने संघर्षों को कुछ गर्व की बात में बदल दो।<br>~ Oprah Winfrey
+                    </p>
+                    <p class="shayari-translation">Your future is shaped by what you do today, Not by the fears that block your way. Work in silence, let results speak loud, Turn your struggles into something proud. ~ Oprah Winfrey</p>
+                    <div class="shayari-actions"><button class="btn" onclick="copyShayari(this)">📋 Copy</button><button class="btn btn-primary" onclick="shareShayari(this)">📱 Share</button></div>
+                </div>
+                <div class="shayari-card">
+                    <span class="shayari-category">Motivational</span>
+                    <p class="shayari-text" data-hindi="आपके अंदर की आग संदेह से बड़ी है,<br>जुनून को आगे बढ़ने दो, डर को जलने दो।<br>बड़ा सपना देखो, साहसपूर्वक कार्य करो, सच्चे रहो —<br>दुनिया निडर तुम्हारे लिए जगह बनाती है।<br>~ Nelson Mandela" data-odia="ତୁମ ଭିତରେ ଥିବା ଅଗ୍ନି ସନ୍ଦେହଠାରୁ ବଡ଼।<br>~ Nelson Mandela" data-english="The fire inside you is greater than doubt,<br>Let passion lead, let fear burn out.<br>Dream big, act bold, stay true —<br>The world makes room for the fearless you.<br>~ Nelson Mandela">
+                        आपके अंदर की आग संदेह से बड़ी है,<br>जुनून को आगे बढ़ने दो, डर को जलने दो।<br>बड़ा सपना देखो, साहसपूर्वक कार्य करो, सच्चे रहो —<br>दुनिया निडर तुम्हारे लिए जगह बनाती है।<br>~ Nelson Mandela
+                    </p>
+                    <p class="shayari-translation">The fire inside you is greater than doubt, Let passion lead, let fear burn out. Dream big, act bold, stay true — The world makes room for the fearless you. ~ Nelson Mandela</p>
+                    <div class="shayari-actions"><button class="btn" onclick="copyShayari(this)">📋 Copy</button><button class="btn btn-primary" onclick="shareShayari(this)">📱 Share</button></div>
+                </div>
+                <div class="shayari-card">
+                    <span class="shayari-category">Motivational</span>
+                    <p class="shayari-text" data-hindi="न शोर, न जल्दबाजी, बस फोकस और विश्वास,<br>राष्ट्र के तनाव को राहत में बदलना।<br>आखिरी गेंद, आखिरी सांस, खड़े रहे ऊंचे —<br>MSD ने साबित किया कि किंवदंतियां तब उठती हैं जब दूसरे गिरते हैं। 💛" data-odia="କୌଣସି ଶବ୍ଦ ନାହିଁ, ଶେଷ ବଲ୍, ଶେଷ ଶ୍ୱାସ। 💛<br>~ MSD" data-english="No noise, no rush, just focus and belief,<br>Turning the nation's tension into relief.<br>Last ball, last breath, standing tall —<br>MSD proved legends rise when others fall. 💛">
+                        न शोर, न जल्दबाजी, बस फोकस और विश्वास,<br>राष्ट्र के तनाव को राहत में बदलना।<br>आखिरी गेंद, आखिरी सांस, खड़े रहे ऊंचे —<br>MSD ने साबित किया कि किंवदंतियां तब उठती हैं जब दूसरे गिरते हैं। 💛
+                    </p>
+                    <p class="shayari-translation">No noise, no rush, just focus and belief, Turning the nation's tension into relief. Last ball, last breath, standing tall — MSD proved legends rise when others fall. 💛</p>
+                    <div class="shayari-actions"><button class="btn" onclick="copyShayari(this)">📋 Copy</button><button class="btn btn-primary" onclick="shareShayari(this)">📱 Share</button></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Screenshot Button -->
+    <button class="screenshot-btn" onclick="takeScreenshot()" title="Take Screenshot">📸</button>
+
+    <!-- AI Chatbot Toggle Button -->
+    <button class="chatbot-toggle" onclick="toggleChatbot()" title="AI Assistant">🤖</button>
+
+    <!-- AI Chatbot Container -->
+    <div class="chatbot-container" id="chatbotContainer">
+        <div class="chatbot-header">
+            <span>🤖 Shayari Assistant</span>
+            <button class="chatbot-close" onclick="toggleChatbot()">✕</button>
+        </div>
+        <div class="chatbot-messages" id="chatbotMessages">
+            <div class="chat-message bot">
+                Hi! I'm your Shayari Assistant. I can help you:<br>
+                • Find shayari by category (Love, Sad, Motivational)<br>
+                • Search by keywords<br>
+                • Translate shayari<br>
+                • Suggest perfect shayari for your mood<br><br>
+                How can I help you today?
+            </div>
+        </div>
+        <div class="chatbot-input-area">
+            <input type="text" class="chatbot-input" id="chatbotInput" placeholder="Ask me anything..." onkeypress="handleChatKeyPress(event)">
+            <button class="chatbot-send" onclick="sendChatMessage()">Send</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <h3 class="footer-title">✨ Share the Beauty of Words ✨</h3>
+            <p>Connect with us on social media for daily Shayari updates</p>
+            <p style="margin-top: 1rem; font-size: 0.95rem;">
+                📧 Contact: <a href="mailto:bhaktiranjandas09@gmail.com" style="color: var(--accent-light); text-decoration: none; border-bottom: 1px solid var(--accent-light);">bhaktiranjandas09@gmail.com</a>
+            </p>
+            <div class="footer-social">
+                <a href="#" class="social-link" title="WhatsApp">📱</a>
+                <a href="#" class="social-link" title="Instagram">📸</a>
+                <a href="#" class="social-link" title="Facebook">👍</a>
+                <a href="#" class="social-link" title="Twitter">🐦</a>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Bhakti Das - Best Shayari Collection. All rights reserved.</p>
+                <p>Spreading love, emotions, and inspiration through beautiful words.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Copy Notification -->
+    <div class="copy-notification" id="copyNotification">✓ Shayari copied to clipboard!</div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
